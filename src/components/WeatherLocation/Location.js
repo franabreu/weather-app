@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles.css'
 
 const Location = ({ city }) => {
 
@@ -7,7 +8,7 @@ const Location = ({ city }) => {
         // We can do it in a const or directly in the component params
 
     return (
-        <div>
+        <div className="locationCont">
             <h1>
                 {city}
             </h1>
