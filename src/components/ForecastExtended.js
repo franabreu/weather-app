@@ -6,19 +6,6 @@ import transformForecast from '../services/transformForecast';
 import getURLForecastByCity from '../services/getURLForecastByCity';
 import './styles.css'
 
-/* const days = [
-    'Lunes',
-    'Martes',
-    'Miércoles'
-]
-
-const data = {
-    temperature: 222,
-    humidity: 99,
-    weatherState: 'normal',
-    wind: 99
-} */
-
 class ForecastExtended extends Component {
 
     constructor() {
@@ -35,7 +22,7 @@ class ForecastExtended extends Component {
     componentDidUpdate(nextProps) {
         if (nextProps.city !== this.props.city) {
             this.setState({ forecastData: null });
-            this.updateCity(nextProps.city);
+            this.updateCity(this.props.city);
         }
     }
 

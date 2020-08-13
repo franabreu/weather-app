@@ -9,7 +9,6 @@ import LocationListCont from './containers/LocationListCont';
 import ForecastExtendedCont from './containers/ForecastExtendedCont'
 
 const cities = [
-  'Sevilla',
   'Cartaya',
   'Ushuaia, ar',
   'Anchorage',
