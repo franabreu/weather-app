@@ -10,7 +10,7 @@ import ForecastExtendedCont from './containers/ForecastExtendedCont'
 
 const cities = [
   'Cartaya',
-  'Ushuaia, ar',
+  'Ushuaia',
   'Anchorage',
   'London'
 ]
